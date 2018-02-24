@@ -1,9 +1,9 @@
 import React from 'react'
-import Form from './form.js'
-import FormInput from './formInput.js'
-import FormTextarea from './formTextarea.js'
-import FormButton from './formButton.js'
-import Nota from '../nota'
+import Form from '../form'
+import FormInput from '../form/formInput'
+import FormTextarea from '../form/formTextarea'
+import FormButton from '../form/formButton'
+import Nota from '../../nota'
 
 
 function montaInputTitulo(notaCopiada, posicao) {

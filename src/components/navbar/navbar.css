@@ -16,7 +16,16 @@
     margin: 0;
 }
 
+.navbar__links {
+    list-style: none;
+    display: flex;
+    padding: 0;
+}
+
+.navbar__links li {
+    padding: 0 1rem;
+}
+
 .navbar__logout {
-    color: #000;
-    text-decoration: none;
+    cursor: pointer;
 }
